@@ -1,5 +1,9 @@
-[![Build Status](https://travis-ci.org/codeplea/tinyexpr.svg?branch=master)](https://travis-ci.org/codeplea/tinyexpr)
-
+> **⚠️ This branch is deprecated.** The comparison and logical operators
+> have been merged into [master](https://github.com/codeplea/tinyexpr),
+> which should be used instead. Note that master uses C operator
+> precedence (`&&` binds tighter than `||`, and relational operators
+> bind tighter than `==`/`!=`), whereas this branch evaluated those at
+> the same precedence level.
 
 <img alt="TinyExpr logo" src="https://codeplea.com/public/content/tinyexpr_logo.png" align="right"/>
 
